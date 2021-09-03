@@ -2,7 +2,7 @@ $( document ).ready(function() {
     var graph1 = new Rickshaw.Graph( {
         element: document.querySelector("#rickshaw1"),
         series: [{
-            color: '#22BAA0',
+            color: '#00C0FF',
             data: [ 
                 { x: 0, y: 40 }, 
                 { x: 1, y: 49 }, 
@@ -26,7 +26,7 @@ $( document ).ready(function() {
                     { x: 3, y: 30 }, 
                     { x: 4, y: 32 } 
                 ],
-                color: '#22BAA0'
+                color: '#00C0FF'
         }, {    
                 data: [
                     { x: 0, y: 40 },
@@ -52,7 +52,7 @@ $( document ).ready(function() {
                 { x: 3, y: 30 }, 
                 { x: 4, y: 32 } 
             ],
-            color: '#22BAA0'
+            color: '#00C0FF'
         }]
     });
  
@@ -69,7 +69,7 @@ $( document ).ready(function() {
                 { x: 3, y: 30 }, 
                 { x: 4, y: 32 } 
             ],
-            color: '#22BAA0'
+            color: '#00C0FF'
         }, {
             data: [ 
                 { x: 0, y: 20 },
@@ -95,7 +95,7 @@ $( document ).ready(function() {
                 { x: 3, y: 30 },
                 { x: 4, y: 32 } 
             ],
-            color: '#22BAA0'
+            color: '#00C0FF'
         }]
     });
  
@@ -107,7 +107,7 @@ $( document ).ready(function() {
         series: [ 
             {
                 data: [ { x: 0, y: 40 }, { x: 1, y: 49 }, { x: 2, y: 38 }, { x: 3, y: 30 }, { x: 4, y: 32 } ],
-                color: '#22BAA0'
+                color: '#00C0FF'
             }, {
                 data: [ { x: 0, y: 20 }, { x: 1, y: 24 }, { x: 2, y: 19 }, { x: 3, y: 15 }, { x: 4, y: 16 } ],
                 color: '#E9E9E9'
@@ -128,7 +128,7 @@ $( document ).ready(function() {
                 { x: 3, y: 30 }, 
                 { x: 4, y: 32 } 
             ],
-            color: '#22BAA0'
+            color: '#00C0FF'
         }, {
             data: [ 
                 { x: 0, y: 20 }, 
@@ -162,7 +162,7 @@ $( document ).ready(function() {
                 { x: 9, y: 27 },
                 { x: 10, y: 26 } 
             ],
-            color: '#22BAA0'
+            color: '#00C0FF'
         }]
     });
  
@@ -183,7 +183,7 @@ $( document ).ready(function() {
         preserve: true,
         series: [
             {
-                color: '#22BAA0',
+                color: '#00C0FF',
                 data: seriesData[0],
                 name: 'Moscow'
             }, {

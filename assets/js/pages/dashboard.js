@@ -50,7 +50,7 @@
 			xaxis: {
 				show: false
 			},
-            colors: ["#22BAA0"],
+            colors: ["#00C0FF"],
             legend: {
                 show: false
             },

@@ -1,43 +1,43 @@
 .page-content {
-    background: #34425A;
+    background: #fff;
 }
 
 .navbar .logo-box {
-    background: #22baa0;
+    background: #fff;
 }
 
 .navbar .logo-box a {
-    color: #fff;
+    color: #00C0FF;
 }
 
 .sidebar {
-    background: #34425A;
+    background: #fff;
 }
 
 .sidebar-header {
-    background: #34425A;
+    background: #fff;
 }
 
 .sidebar-profile span small {
-    color: #899dc1;
+    color: #00C0FF;
 }
 
 .menu {
-    background: #34425A;
+    background: #fff;
 }
 
 .menu.accordion-menu a {
-    color: #899dc1;
+    color: #FC7F01;
 }
 
 .menu.accordion-menu > li > a:hover {
-	background: #2b384e;
+	background: #FC7F01;
     color: #fff;
 }
 
 .menu.accordion-menu > li.active > a,
 .menu.accordion-menu > li.active.open > a {
-	background: #2b384e;
+	background: #00C0FF;
     color: #fff;
 }
 
@@ -46,16 +46,16 @@
 .menu.accordion-menu ul,
 .menu.accordion-menu li.open > a,
 .hover-menu .accordion-menu > li.droplink:hover > a {
-    background: #2B384E;
+    background: #00C0FF;
     color: #fff;
 }
 
 .menu.accordion-menu ul li a:hover,
 .menu.accordion-menu ul li.active a {
-	background: #34425A;
+	background: #fff;
     color: #fff;
 }
 
 .menu.accordion-menu ul li a {
-    color: #899dc1;
+    color: #fff;
 }

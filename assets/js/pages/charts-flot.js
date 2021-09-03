@@ -4,7 +4,7 @@ $(document).ready(function () {
         var data = [[0, 11], [1, 15], [2, 25], [3, 24], [4, 13], [5, 18]];
         var dataset = [{
             data: data,
-            color: "#22BAA0"
+            color: "#00C0FF"
         }];
         var ticks = [[0, "1"], [1, "2"], [2, "3"], [3, "4"], [4, "5"], [5, "6"]];
 
@@ -43,7 +43,7 @@ $(document).ready(function () {
         var data = [[0, 11], [1, 15], [2, 25], [3, 24], [4, 13], [5, 18]];
         var dataset = [{
             data: data,
-            color: "#22BAA0"
+            color: "#00C0FF"
         }];
         var ticks = [[0, "1"], [1, "2"], [2, "3"], [3, "4"], [4, "5"], [5, "6"]];
 
@@ -82,7 +82,7 @@ $(document).ready(function () {
         var data = [{
             label: "1",
             data: 42,
-            color: "#22BAA0",
+            color: "#00C0FF",
         }, {
             label: "2",
             data: 23,
@@ -169,7 +169,7 @@ $(document).ready(function () {
 			xaxis: {
 				show: false
 			},
-            colors: ["#22BAA0"],
+            colors: ["#00C0FF"],
             legend: {
                 show: false
             },

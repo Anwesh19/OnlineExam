@@ -93,7 +93,7 @@ $( document ).ready(function() {
         },
         {
             value: 50,
-            color: "#22BAA0",
+            color: "#00C0FF",
             highlight: "#36E7C8",
             label: "Green"
         },
@@ -127,7 +127,7 @@ $( document ).ready(function() {
         },
         {
             value: 50,
-            color: "#22BAA0",
+            color: "#00C0FF",
             highlight: "#36E7C8",
             label: "Green"
         },
@@ -161,7 +161,7 @@ $( document ).ready(function() {
         },
         {
             value: 50,
-            color: "#22BAA0",
+            color: "#00C0FF",
             highlight: "#36E7C8",
             label: "Green"
         },

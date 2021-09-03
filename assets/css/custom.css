@@ -1,0 +1,8 @@
+.login-box{
+    background-color: white;
+    mix-blend-mode:normal;
+    padding: 40px;
+    border-radius: 10px;
+    border: white;
+    box-shadow: 0 8px 20px 0 rgba(7, 240, 248, 0.959);
+}

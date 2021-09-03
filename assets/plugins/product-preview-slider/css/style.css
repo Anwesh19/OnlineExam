@@ -265,7 +265,7 @@ Main Components
   overflow: hidden;
 }
 .cd-item-info .cd-price {
-  color: #22BAA0;
+  color: #00C0FF;
   position: relative;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
@@ -285,7 +285,7 @@ Main Components
   left: 0;
   height: 2px;
   width: 0%;
-  background-color: #22BAA0;
+  background-color: #00C0FF;
   opacity: 0;
   -webkit-transition: width 0.2s 0s, opacity 0s 0.2s;
   -moz-transition: width 0.2s 0s, opacity 0s 0.2s;
@@ -350,7 +350,7 @@ xcredits
 }
 
 .cd-item-details a:hover {
-    color: #22BAA0;
+    color: #00C0FF;
 }
 
 .cd-item-details a i {

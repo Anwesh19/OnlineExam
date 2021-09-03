@@ -65,7 +65,7 @@ include 'includes/check_reply.php';
 					<div class="sidebar-pusher">
 						<a href="javascript:void(0);" class="waves-effect waves-button waves-classic push-sidebar"> <i class="fa fa-bars"></i> </a>
 					</div>
-					<div class="logo-box"> <a href="./" class="logo-text"><span><img src="kashipara.png" alt="" height="76" width="130"></span></a> </div>
+					<div class="logo-box"> <a href="./" class="logo-text"><span><img src="../assets/images/7hillsTS.png" alt="" height="76" width="130"></span></a> </div>
 					<div class="search-button"> <a href="javascript:void(0);" class="waves-effect waves-button waves-classic show-search"><i class="fa fa-search"></i></a> </div>
 					<div class="topmenu-outer">
 						<div class="top-menu">

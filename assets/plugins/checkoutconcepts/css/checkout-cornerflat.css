@@ -211,7 +211,7 @@
 }
 
 .checkout__total {
-	color: #22BAA0;
+	color: #00C0FF;
 }
 
 .checkout__summary tbody tr:first-child td {
@@ -225,7 +225,7 @@
 }
 
 .checkout__summary tbody td span {
-	color: #22BAA0;
+	color: #00C0FF;
 }
 
 .checkout__summary th:last-child,

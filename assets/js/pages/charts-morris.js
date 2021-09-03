@@ -17,7 +17,7 @@ $( document ).ready(function() {
         ykeys: ['iphone', 'ipad', 'itouch'],
         labels: ['iPhone', 'iPad', 'iPod Touch'],
         hideHover: 'auto',
-        lineColors: ['#8adfd0', '#6ad6c3','#22BAA0'],
+        lineColors: ['#8adfd0', '#6ad6c3','#00C0FF'],
         resize: true,
     });
     
@@ -38,7 +38,7 @@ $( document ).ready(function() {
         barRatio: 0.4,
         xLabelAngle: 35,
         hideHover: 'auto',
-        barColors: ['#6ad6c3','#22BAA0'],
+        barColors: ['#6ad6c3','#00C0FF'],
         resize: true
     });
     
@@ -57,7 +57,7 @@ $( document ).ready(function() {
         ykeys: ['a', 'b'],
         labels: ['a', 'b'],
         resize: true,
-        lineColors: ['#6ad6c3','#22BAA0']
+        lineColors: ['#6ad6c3','#00C0FF']
     });
     
     Morris.Donut({
@@ -69,6 +69,6 @@ $( document ).ready(function() {
             {label: 'PHP', value: 20 }
         ],
         resize: true,
-        colors: ['#74e4d1', '#44cbb4', '#119d85','#22BAA0'],
+        colors: ['#74e4d1', '#44cbb4', '#119d85','#00C0FF'],
     });
 });
