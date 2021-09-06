@@ -167,7 +167,7 @@ include 'includes/check_reply.php';
             </div>
             <div class="page-inner">
                 <div class="page-title">
-                    <h3>Manage Results</h3>
+                    <h3>Manage Assessment Results</h3>
 
 
 
@@ -192,8 +192,8 @@ include 'includes/check_reply.php';
                                         <thead>
                                             <tr>
                                                 <th>Name</th>
-												<th>Category</th>
-												<th>Subject</th>
+												<th>Service</th>
+												<th>Skill</th>
                                                 <th>Date</th>
                                                 <th>Duration</th>
 												<th>Passmark</th>
@@ -205,8 +205,8 @@ include 'includes/check_reply.php';
                                         <tfoot>
                                             <tr>
                                                 <th>Name</th>
-												<th>Category</th>
-												<th>Subject</th>
+												<th>Service</th>
+												<th>Skill</th>
                                                 <th>Date</th>
                                                 <th>Duration</th>
 												<th>Passmark</th>

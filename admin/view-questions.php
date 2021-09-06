@@ -179,11 +179,11 @@ header("location:./");
             </div>
             <div class="page-inner">
                 <div class="page-title">
-                    <h3>View Examination</h3>
+                    <h3>View Assessment</h3>
                     <div class="page-breadcrumb">
                         <ol class="breadcrumb">
                             <li><a href="./">Home</a></li>
-                            <li><a href="examinations.php">Examinations</a></li>
+                            <li><a href="examinations.php">Assessments</a></li>
                             <li class="active"><?php echo "$exam_name"; ?></li>
                         </ol>
                     </div>

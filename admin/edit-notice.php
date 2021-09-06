@@ -177,7 +177,7 @@ $conn->close();
             </div>
             <div class="page-inner">
                 <div class="page-title">
-                    <h3>Edit Notice - <?php echo "$title"; ?></h3>
+                    <h3>Edit Bulletin board - <?php echo "$title"; ?></h3>
 
 
 

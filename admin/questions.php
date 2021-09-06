@@ -145,9 +145,9 @@ include 'includes/check_reply.php';
 													<div role="tabpanel" class="tab-pane active fade in" id="tab5">
 														<form action="pages/add_question2.php?type=mc" method="POST">
 															<div class="form-group">
-																<label for="exampleInputEmail1">Exam Name</label>
+																<label for="exampleInputEmail1">Assessment Name</label>
 																<select class="form-control" name="exam" required>
-																	<option value="" selected disabled>-Select exam</option>
+																	<option value="" selected disabled>-Select assessment</option>
 																	<?php
 											include '../database/config.php';
 											$sql = "SELECT * FROM tbl_examinations ORDER BY exam_name";
@@ -239,9 +239,9 @@ include 'includes/check_reply.php';
 													<div role="tabpanel" class="tab-pane fade" id="tab6">
 														<form action="pages/add_question2.php?type=fib" method="POST">
 															<div class="form-group">
-																<label for="exampleInputEmail1">Exam Name</label>
+																<label for="exampleInputEmail1">Assessment Name</label>
 																<select class="form-control" name="exam" required>
-																	<option value="" selected disabled>-Select exam</option>
+																	<option value="" selected disabled>-Select assessment</option>
 																	<?php
 											include '../database/config.php';
 											$sql = "SELECT * FROM tbl_examinations ORDER BY exam_name";

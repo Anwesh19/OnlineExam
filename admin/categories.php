@@ -159,7 +159,7 @@ include 'includes/check_reply.php';
             </div>
             <div class="page-inner">
                 <div class="page-title">
-                    <h3>Manage Categories</h3>
+                    <h3>Manage Services</h3>
 
 
 
@@ -175,8 +175,8 @@ include 'includes/check_reply.php';
                                         <div role="tabpanel">
                                    
                                             <ul class="nav nav-tabs" role="tablist">
-                                                <li role="presentation" class="active"><a href="#tab5" role="tab" data-toggle="tab">Categories</a></li>
-                                                <li role="presentation"><a href="#tab6" role="tab" data-toggle="tab">Add Categories</a></li>
+                                                <li role="presentation" class="active"><a href="#tab5" role="tab" data-toggle="tab">Services</a></li>
+                                                <li role="presentation"><a href="#tab6" role="tab" data-toggle="tab">Add Services</a></li>
                                             </ul>
                                     
                                             <div class="tab-content">
@@ -193,9 +193,9 @@ include 'includes/check_reply.php';
                                         <thead>
                                             <tr>
                                                 <th>Name</th>
-												<th>Category ID</th>
+												<th>Service ID</th>
 												<th>Status</th>
-                                                <th>Department</th>
+                                                <th>Domain</th>
                                                 <th>Date Registered</th>
                                                 <th>Action</th>
                                             </tr>
@@ -203,9 +203,9 @@ include 'includes/check_reply.php';
                                         <tfoot>
                                             <tr>
                                                 <th>Name</th>
-												<th>Category ID</th>
+												<th>Service ID</th>
 												<th>Status</th>
-                                                <th>Department</th>
+                                                <th>Domain</th>
                                                 <th>Date Registered</th>
                                                 <th>Action</th>
                                             </tr>
@@ -265,13 +265,13 @@ include 'includes/check_reply.php';
                                                 <div role="tabpanel" class="tab-pane fade" id="tab6">
                                          <form action="pages/add_category.php" method="POST">
                                         <div class="form-group">
-                                            <label for="exampleInputEmail1">Category Name</label>
-                                            <input type="text" class="form-control" placeholder="Enter category name" name="category" required autocomplete="off">
+                                            <label for="exampleInputEmail1">Service Name</label>
+                                            <input type="text" class="form-control" placeholder="Enter Service name" name="category" required autocomplete="off">
                                         </div>
 										<div class="form-group">
-                                            <label for="exampleInputEmail1">Select Department</label>
+                                            <label for="exampleInputEmail1">Select Domain</label>
                                             <select class="form-control" name="department" required>
-											<option value="" selected disabled>-Select department-</option>
+											<option value="" selected disabled>-Select Domain-</option>
 											<?php
 											include '../database/config.php';
 											$sql = "SELECT * FROM tbl_departments WHERE status = 'Active' ORDER BY name";

@@ -121,7 +121,7 @@ $conn->close();
         </div>
         <form class="search-form" action="search.php" method="GET">
             <div class="input-group">
-                <input type="text" name="keyword" class="form-control search-input" placeholder="Search student..." required>
+                <input type="text" name="keyword" class="form-control search-input" placeholder="Search candidate..." required>
                 <span class="input-group-btn">
                     <button class="btn btn-default close-search waves-effect waves-button waves-classic" type="button"><i class="fa fa-times"></i></button>
                 </span>
@@ -234,12 +234,12 @@ $conn->close();
                                            <tbody>
                                                <tr>
                                                    <th scope="row">1</th>
-                                                   <td>Exam Name</td>
+                                                   <td>Assessment Name</td>
                                                    <td><?php echo "$exname"; ?></td>
                                                </tr>
 											     <tr>
                                                    <th scope="row">2</th>
-                                                   <td>Subject</td>
+                                                   <td>Skill</td>
                                                    <td><?php echo "$exsubject"; ?></td>
                                                </tr>
 											    <tr>

@@ -7,7 +7,7 @@ include 'includes/check_reply.php';
    
 <head>
         
-        <title>OES | Manage Departments</title>
+        <title>OES | Manage Domains</title>
         
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta charset="UTF-8">
@@ -63,7 +63,7 @@ include 'includes/check_reply.php';
         </div>
         <form class="search-form" action="search.php" method="GET">
             <div class="input-group">
-                <input type="text" name="keyword" class="form-control search-input" placeholder="Search student..." required>
+                <input type="text" name="keyword" class="form-control search-input" placeholder="Search candidate..." required>
                 <span class="input-group-btn">
                     <button class="btn btn-default close-search waves-effect waves-button waves-classic" type="button"><i class="fa fa-times"></i></button>
                 </span>
@@ -159,7 +159,7 @@ include 'includes/check_reply.php';
             </div>
             <div class="page-inner">
                 <div class="page-title">
-                    <h3>Manage Departments</h3>
+                    <h3>Manage Domains</h3>
 
 
 
@@ -175,8 +175,8 @@ include 'includes/check_reply.php';
                                         <div role="tabpanel">
                                    
                                             <ul class="nav nav-tabs" role="tablist">
-                                                <li role="presentation" class="active"><a href="#tab5" role="tab" data-toggle="tab">Departments</a></li>
-                                                <li role="presentation"><a href="#tab6" role="tab" data-toggle="tab">Add Departments</a></li>
+                                                <li role="presentation" class="active"><a href="#tab5" role="tab" data-toggle="tab">Domain</a></li>
+                                                <li role="presentation"><a href="#tab6" role="tab" data-toggle="tab">Add Domain</a></li>
                                             </ul>
                                     
                                             <div class="tab-content">
@@ -194,7 +194,7 @@ include 'includes/check_reply.php';
                                             <tr>
                                                 <th>Name</th>
 												<th>Status</th>
-                                                <th>Department ID</th>
+                                                <th>Domain ID</th>
                                                 <th>Date Registered</th>
                                                 <th>Action</th>
                                             </tr>
@@ -203,7 +203,7 @@ include 'includes/check_reply.php';
                                             <tr>
                                                 <th>Name</th>
 												<th>Status</th>
-                                                <th>Department ID</th>
+                                                <th>Domain ID</th>
                                                 <th>Date Registered</th>
                                                 <th>Action</th>
                                             </tr>
@@ -261,8 +261,8 @@ include 'includes/check_reply.php';
                                                 <div role="tabpanel" class="tab-pane fade" id="tab6">
                                          <form action="pages/add_department.php" method="POST">
                                         <div class="form-group">
-                                            <label for="exampleInputEmail1">Department Name</label>
-                                            <input type="text" class="form-control" placeholder="Enter department name" name="department" required autocomplete="off">
+                                            <label for="exampleInputEmail1">Domain Name</label>
+                                            <input type="text" class="form-control" placeholder="Enter domain name" name="department" required autocomplete="off">
                                         </div>
 
                                         <button type="submit" class="btn btn-primary">Submit</button>

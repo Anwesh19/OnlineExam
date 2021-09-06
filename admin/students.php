@@ -168,7 +168,7 @@ include 'includes/check_reply.php';
             </div>
             <div class="page-inner">
                 <div class="page-title">
-                    <h3>Manage Students</h3>
+                    <h3>Manage Candidates</h3>
 
 
 
@@ -185,8 +185,8 @@ include 'includes/check_reply.php';
                                    
                                             <ul class="nav nav-tabs" role="tablist">
 			
-                                                <li role="presentation" class="active"><a href="#tab5" role="tab" data-toggle="tab">Students</a></li>
-                                                <li role="presentation"><a href="#tab6" role="tab" data-toggle="tab">Add Students</a></li>										
+                                                <li role="presentation" class="active"><a href="#tab5" role="tab" data-toggle="tab">Candidates</a></li>
+                                                <li role="presentation"><a href="#tab6" role="tab" data-toggle="tab">Add Candidates</a></li>										
 												
 						
 
@@ -249,8 +249,8 @@ include 'includes/check_reply.php';
                                                 </button>
                                                 <ul class="dropdown-menu" role="menu">
                                                     <li>'.$stl.'</li>
-													<li><a href="edit-student.php?sid='.$row['user_id'].'">Edit Student</a></li>
-													<li><a href="view-student.php?sid='.$row['user_id'].'">View Student</a></li>
+													<li><a href="edit-student.php?sid='.$row['user_id'].'">Edit Candidate</a></li>
+													<li><a href="view-student.php?sid='.$row['user_id'].'">View Candidate</a></li>
                                                     <li><a'; ?> onclick = "return confirm('Drop <?php echo $row['first_name']; ?> ?')" <?php print ' href="pages/drop_sd.php?id='.$row['user_id'].'">Drop Student</a></li>
                                                 </ul>
                                             </div></td>
@@ -303,9 +303,9 @@ include 'includes/check_reply.php';
                                             <input type="text" class="form-control" placeholder="Enter phone" name="phone" required autocomplete="off">
                                         </div>
 										<div class="form-group">
-                                            <label for="exampleInputEmail1">Select Department</label>
+                                            <label for="exampleInputEmail1">Select Domain</label>
                                             <select class="form-control" name="department" required>
-											<option value="" selected disabled>-Select department-</option>
+											<option value="" selected disabled>-Select domain-</option>
 											<?php
 											include '../database/config.php';
 											$sql = "SELECT * FROM tbl_departments WHERE status = 'Active' ORDER BY name";
@@ -326,9 +326,9 @@ include 'includes/check_reply.php';
                                         </div>
 										
 										<div class="form-group">
-                                            <label for="exampleInputEmail1">Select Category</label>
+                                            <label for="exampleInputEmail1">Select Service</label>
                                             <select class="form-control" name="category" required>
-											<option value="" selected disabled>-Select category-</option>
+											<option value="" selected disabled>-Select Service-</option>
 											<?php
 											include '../database/config.php';
 											$sql = "SELECT * FROM tbl_categories WHERE status = 'Active' ORDER BY name";

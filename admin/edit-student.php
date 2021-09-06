@@ -37,7 +37,7 @@ if ($result->num_rows > 0) {
    
 <head>
         
-        <title>OES | Edit Student</title>
+        <title>OES | Edit Candidate</title>
         
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta charset="UTF-8">
@@ -103,7 +103,7 @@ if ($result->num_rows > 0) {
         </div>
         <form class="search-form" action="search.php" method="GET">
             <div class="input-group">
-                <input type="text" name="keyword" class="form-control search-input" placeholder="Search student..." required>
+                <input type="text" name="keyword" class="form-control search-input" placeholder="Search candidate..." required>
                 <span class="input-group-btn">
                     <button class="btn btn-default close-search waves-effect waves-button waves-classic" type="button"><i class="fa fa-times"></i></button>
                 </span>
@@ -198,7 +198,7 @@ if ($result->num_rows > 0) {
             </div>
             <div class="page-inner">
                 <div class="page-title">
-                    <h3>Edit Student - <?php echo "$sdfname"; ?> <?php echo "$sdlname"; ?></h3>
+                    <h3>Edit Candidate - <?php echo "$sdfname"; ?> <?php echo "$sdlname"; ?></h3>
 
 
 

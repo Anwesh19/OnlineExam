@@ -94,7 +94,7 @@ header("location:./");
         </div>
         <form class="search-form" action="search.php" method="GET">
             <div class="input-group">
-                <input type="text" name="keyword" class="form-control search-input" placeholder="Search student..." required>
+                <input type="text" name="keyword" class="form-control search-input" placeholder="Search candidate..." required>
                 <span class="input-group-btn">
                     <button class="btn btn-default close-search waves-effect waves-button waves-classic" type="button"><i class="fa fa-times"></i></button>
                 </span>
@@ -188,7 +188,7 @@ header("location:./");
             </div>
             <div class="page-inner">
                 <div class="page-title">
-                    <h3><?php echo "$exam_name" ?> Results</h3>
+                    <h3><?php echo "$exam_name" ?> Assessment Results</h3>
 
 
 
@@ -212,9 +212,9 @@ header("location:./");
 										<table id="example" class="display table" style="width: 100%; cellspacing: 0;">
                                         <thead>
                                             <tr>
-                                                <th>Student Name</th>
-												<th>Student ID</th>
-												<th>Exam Name</th>
+                                                <th>Candidate Name</th>
+												<th>Candidate ID</th>
+												<th>Assessment Name</th>
                                                 <th>Score</th>
                                                 <th>Status</th>
 												<th>Date</th>
@@ -224,9 +224,9 @@ header("location:./");
                                         </thead>
                                         <tfoot>
                                             <tr>
-                                                <th>Student Name</th>
-												<th>Student ID</th>
-												<th>Exam Name</th>
+                                                <th>Candidate Name</th>
+												<th>Candidate ID</th>
+												<th>Assessment Name</th>
                                                 <th>Score</th>
                                                 <th>Status</th>
 												<th>Date</th>

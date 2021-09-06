@@ -159,7 +159,7 @@ include 'includes/check_reply.php';
             </div>
             <div class="page-inner">
                 <div class="page-title">
-                    <h3>Manage Subjects</h3>
+                    <h3>Manage Skills</h3>
 
 
 
@@ -176,8 +176,8 @@ include 'includes/check_reply.php';
                                    
                                             <ul class="nav nav-tabs" role="tablist">
 			
-                                                <li role="presentation" class="active"><a href="#tab5" role="tab" data-toggle="tab">Subjects</a></li>
-                                                <li role="presentation"><a href="#tab6" role="tab" data-toggle="tab">Add Subjects</a></li>										
+                                                <li role="presentation" class="active"><a href="#tab5" role="tab" data-toggle="tab">Skills</a></li>
+                                                <li role="presentation"><a href="#tab6" role="tab" data-toggle="tab">Add Skills</a></li>										
 												
 						
 
@@ -197,8 +197,8 @@ include 'includes/check_reply.php';
                                         <thead>
                                             <tr>
                                                 <th>Name</th>
-												<th>Category</th>
-												<th>Department</th>
+												<th>Service</th>
+												<th>Domain</th>
                                                 <th>Status</th>
                                                 <th>Date Registered</th>
                                                 <th>Action</th>
@@ -207,8 +207,8 @@ include 'includes/check_reply.php';
                                         <tfoot>
                                             <tr>
                                                 <th>Name</th>
-												<th>Category</th>
-												<th>Department</th>
+												<th>Service</th>
+												<th>Domain</th>
                                                 <th>Status</th>
                                                 <th>Date Registered</th>
                                                 <th>Action</th>
@@ -270,9 +270,9 @@ include 'includes/check_reply.php';
                                          <form action="pages/add_subject.php" method="POST">
 
 										<div class="form-group">
-                                            <label for="exampleInputEmail1">Select Department</label>
+                                            <label for="exampleInputEmail1">Select Domain</label>
                                             <select class="form-control" name="department" required>
-											<option value="" selected disabled>-Select department-</option>
+											<option value="" selected disabled>-Select Domain-</option>
 											<?php
 											include '../database/config.php';
 											$sql = "SELECT * FROM tbl_departments WHERE status = 'Active' ORDER BY name";
@@ -293,9 +293,9 @@ include 'includes/check_reply.php';
                                         </div>
 										
 										<div class="form-group">
-                                            <label for="exampleInputEmail1">Select Category</label>
+                                            <label for="exampleInputEmail1">Select Service</label>
                                             <select class="form-control" name="category" required>
-											<option value="" selected disabled>-Select category-</option>
+											<option value="" selected disabled>-Select Service-</option>
 											<?php
 											include '../database/config.php';
 											$sql = "SELECT * FROM tbl_categories WHERE status = 'Active' ORDER BY name";
@@ -315,8 +315,8 @@ include 'includes/check_reply.php';
 											</select>
                                         </div>
 										<div class="form-group">
-                                            <label for="exampleInputEmail1">Subject Name</label>
-                                            <input type="text" class="form-control" placeholder="Enter subject name" name="subject" required autocomplete="off">
+                                            <label for="exampleInputEmail1">Skill</label>
+                                            <input type="text" class="form-control" placeholder="Enter skill name" name="subject" required autocomplete="off">
                                         </div>
 
                                         <button type="submit" class="btn btn-primary">Submit</button>

@@ -38,7 +38,7 @@ if ($result->num_rows > 0) {
    
 <head>
         
-        <title>OES | View Student</title>
+        <title>OES | View Candidate</title>
         
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta charset="UTF-8">
@@ -104,7 +104,7 @@ if ($result->num_rows > 0) {
         </div>
         <form class="search-form" action="search.php" method="GET">
             <div class="input-group">
-                <input type="text" name="keyword" class="form-control search-input" placeholder="Search student..." required>
+                <input type="text" name="keyword" class="form-control search-input" placeholder="Search candidate..." required>
                 <span class="input-group-btn">
                     <button class="btn btn-default close-search waves-effect waves-button waves-classic" type="button"><i class="fa fa-times"></i></button>
                 </span>
@@ -198,7 +198,7 @@ if ($result->num_rows > 0) {
             </div>
             <div class="page-inner">
                 <div class="page-title">
-                    <h3>View Student - <?php echo "$sdfname"; ?> <?php echo "$sdlname"; ?></h3>
+                    <h3>View Candidate - <?php echo "$sdfname"; ?> <?php echo "$sdlname"; ?></h3>
 
 
 
@@ -309,7 +309,7 @@ if ($result->num_rows > 0) {
 									   <table id="example" class="display table" style="width: 100%; cellspacing: 0;">
                                         <thead>
                                             <tr>
-                                                <th>Exam</th>
+                                                <th>Assessment</th>
                                                 <th>Date</th>
                                                 <th>Score</th>
                                                 <th>Status</th>
@@ -317,7 +317,7 @@ if ($result->num_rows > 0) {
                                         </thead>
                                         <tfoot>
                                             <tr>
-                                                <th>Exam</th>
+                                                <th>Assessment</th>
                                                 <th>Date</th>
                                                 <th>Score</th>
                                                 <th>Status</th>

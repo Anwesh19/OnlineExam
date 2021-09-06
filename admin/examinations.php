@@ -6,7 +6,7 @@ include 'includes/check_reply.php';
 	<html>
 
 	<head>
-		<title>OES | Manage Examinations</title>
+		<title>OES | Manage Assessments</title>
 		<meta content="width=device-width, initial-scale=1" name="viewport" />
 		<meta charset="UTF-8">
 		<meta name="description" content="Online Examination System" />
@@ -133,7 +133,7 @@ include 'includes/check_reply.php';
 			</div>
 			<div class="page-inner">
 				<div class="page-title">
-					<h3>Manage Examinations</h3> </div>
+					<h3>Manage Assessments</h3> </div>
 				<div id="main-wrapper">
 					<div class="row">
 						<div class="col-md-12">
@@ -143,8 +143,8 @@ include 'includes/check_reply.php';
 										<div class="panel-body">
 											<div role="tabpanel">
 												<ul class="nav nav-tabs" role="tablist">
-													<li role="presentation" class="active"><a href="#tab5" role="tab" data-toggle="tab">Examinations</a></li>
-													<li role="presentation"><a href="#tab6" role="tab" data-toggle="tab">Add Exam</a></li>
+													<li role="presentation" class="active"><a href="#tab5" role="tab" data-toggle="tab">Assessments</a></li>
+													<li role="presentation"><a href="#tab6" role="tab" data-toggle="tab">Add Assessments</a></li>
 												</ul>
 												<div class="tab-content">
 													<div role="tabpanel" class="tab-pane active fade in" id="tab5">
@@ -160,8 +160,8 @@ include 'includes/check_reply.php';
                                         <thead>
                                             <tr>
                                                 <th>Name</th>
-												<th>Category</th>
-												<th>Subject</th>
+												<th>Service</th>
+												<th>Skill</th>
                                                 <th>Deadline</th>
                                                 <th>ID</th>
 												<th>Status</th>
@@ -171,8 +171,8 @@ include 'includes/check_reply.php';
                                         <tfoot>
                                             <tr>
                                                 <th>Name</th>
-												<th>Category</th>
-												<th>Subject</th>
+												<th>Service</th>
+												<th>Skill</th>
                                                 <th>Deadline</th>
                                                 <th>ID</th>
 												<th>Status</th>
@@ -205,12 +205,12 @@ include 'includes/check_reply.php';
                                                 </button>
                                                 <ul class="dropdown-menu" role="menu">
                                                     <li>'.$stl.'</li>
-													<li><a href="edit-exam.php?eid='.$row['exam_id'].'">Edit Exam</a></li>
+													<li><a href="edit-exam.php?eid='.$row['exam_id'].'">Edit Assessment</a></li>
 													<li><a href="view-questions.php?eid='.$row['exam_id'].'">View Questions</a></li>
 													<li><a href="add-questions.php?eid='.$row['exam_id'].'">Add Questions</a></li>
                                                     <li><a'; ?> onclick = "return confirm('Drop
 																<?php echo $row['exam_name']; ?> ?')"
-																	<?php print ' href="pages/drop_ex.php?id='.$row['exam_id'].'">Drop Exam</a></li>
+																	<?php print ' href="pages/drop_ex.php?id='.$row['exam_id'].'">Drop Assessment</a></li>
                                                 </ul>
                                             </div></td>
           
@@ -235,11 +235,11 @@ include 'includes/check_reply.php';
 
 														<form action="pages/add_exam.php" method="POST">
 															<div class="form-group">
-																<label for="exampleInputEmail1">Exam Name</label>
-																<input type="text" class="form-control" placeholder="Enter exam name" name="exam" required autocomplete="off"> </div>
+																<label for="exampleInputEmail1">Assessment Name</label>
+																<input type="text" class="form-control" placeholder="Enter assessment name" name="exam" required autocomplete="off"> </div>
 															<div class="form-group">
-																<label for="exampleInputEmail1">Exam Duration (Minutes)</label>
-																<input type="number" class="form-control" placeholder="Enter exam duration" name="duration" required autocomplete="off"> </div>
+																<label for="exampleInputEmail1">Assessment Duration (Minutes)</label>
+																<input type="number" class="form-control" placeholder="Enter assessment duration" name="duration" required autocomplete="off"> </div>
 															<div class="form-group">
 																<label for="exampleInputEmail1">Passmark (%)</label>
 																<input type="number" class="form-control" placeholder="Enter passmark" name="passmark" required autocomplete="off"> </div>
@@ -262,9 +262,9 @@ include 'includes/check_reply.php';
 																<label>Deadline</label>
 																<input type="text" class="form-control date-picker" name="date" required autocomplete="off" placeholder="Select deadline"> </div>
 															<div class="form-group">
-																<label for="exampleInputEmail1">Select Subject</label>
+																<label for="exampleInputEmail1">Select Skill</label>
 																<select class="form-control" name="subject" required>
-																	<option value="" selected disabled>-Select subject</option>
+																	<option value="" selected disabled>-Select skill</option>
 																	<?php
 											include '../database/config.php';
 											$sql = "SELECT * FROM tbl_subjects WHERE status = 'Active' ORDER BY name";
@@ -283,9 +283,9 @@ include 'includes/check_reply.php';
 																</select>
 															</div>
 															<div class="form-group">
-																<label for="exampleInputEmail1">Select Category</label>
+																<label for="exampleInputEmail1">Select Service</label>
 																<select class="form-control" name="category" required>
-																	<option value="" selected disabled>-Select category-</option>
+																	<option value="" selected disabled>-Select service-</option>
 																	<?php
 											include '../database/config.php';
 											$sql = "SELECT * FROM tbl_categories WHERE status = 'Active' ORDER BY name";

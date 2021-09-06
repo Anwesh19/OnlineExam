@@ -170,7 +170,7 @@ include 'includes/fetch_records.php';
                                 <div class="panel-body">
                                     <div class="info-box-stats">
                                         <p class="counter"><?php echo number_format($departments); ?></p>
-                                        <span class="info-box-title">DEPARTMENTS</span>
+                                        <span class="info-box-title">DOMAIN</span>
                                     </div>
                                     <div class="info-box-icon">
                                         <i class="icon-folder"></i>
@@ -183,7 +183,7 @@ include 'includes/fetch_records.php';
                                 <div class="panel-body">
                                     <div class="info-box-stats">
                                         <p class="counter"><?php echo number_format($students); ?></p>
-                                        <span class="info-box-title">STUDENTS</span>
+                                        <span class="info-box-title">CANDIDATES</span>
                                     </div>
                                     <div class="info-box-icon">
                                         <i class="icon-user"></i>
@@ -197,7 +197,7 @@ include 'includes/fetch_records.php';
                                 <div class="panel-body">
                                     <div class="info-box-stats">
                                         <p><span class="counter"><?php echo number_format($examination); ?></span></p>
-                                        <span class="info-box-title">EXAMINATIONS</span>
+                                        <span class="info-box-title">ASSESSMENTS</span>
                                     </div>
                                     <div class="info-box-icon">
                                         <i class="icon-book-open"></i>
@@ -211,7 +211,7 @@ include 'includes/fetch_records.php';
                                 <div class="panel-body">
                                     <div class="info-box-stats">
                                         <p class="counter"><?php echo number_format($subjects); ?></p>
-                                        <span class="info-box-title">SUBJECTS</span>
+                                        <span class="info-box-title">SKILLS</span>
                                     </div>
                                     <div class="info-box-icon">
                                         <i class="icon-docs"></i>
@@ -225,7 +225,7 @@ include 'includes/fetch_records.php';
                                 <div class="panel-body">
                                     <div class="info-box-stats">
                                         <p class="counter"><?php echo number_format($categories); ?></p>
-                                        <span class="info-box-title">CATEGORIES <?php echo "$fp $pp"; ?></span>
+                                        <span class="info-box-title">SERVICES <?php echo "$fp $pp"; ?></span>
                                     </div>
                                     <div class="info-box-icon">
                                         <i class="icon-tag"></i>
@@ -238,7 +238,7 @@ include 'includes/fetch_records.php';
                                 <div class="panel-body">
                                     <div class="info-box-stats">
                                         <p class="counter"><?php echo number_format($notice); ?></p>
-                                        <span class="info-box-title">NOTICE</span>
+                                        <span class="info-box-title">BULLETIN BOARD</span>
                                     </div>
                                     <div class="info-box-icon">
                                         <i class="icon-list"></i>
@@ -266,7 +266,7 @@ include 'includes/fetch_records.php';
                                 <div class="panel-body">
                                     <div class="info-box-stats">
                                         <p class="counter"><?php echo number_format($banned_students); ?></p>
-                                        <span class="info-box-title">BANNED STUDENTS</span>
+                                        <span class="info-box-title">BANNED CANDIDATES</span>
                                     </div>
                                     <div class="info-box-icon">
                                         <i class="icon-lock"></i>
@@ -332,7 +332,7 @@ var chart = new CanvasJS.Chart("chartContainer", {
 	exportEnabled: true,
 	animationEnabled: true,
 	title: {
-		text: "Piechart presentation of students assessments in FAIL and PASS"
+		text: "Piechart presentation of Candidates assessments in FAIL and PASS"
 	},
 	data: [{
 		type: "pie",
@@ -343,8 +343,8 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		indexLabelFontSize: 14,
 		indexLabel: "{label} - {y}",
 		dataPoints: [
-			{ y: <?php echo "$std_pass"; ?>, label: "Student Passing Exams" },
-			{ y: <?php echo "$std_fails"; ?>, label: "Student Failing Exams" }
+			{ y: <?php echo "$std_pass"; ?>, label: "Candidate Passing Exams" },
+			{ y: <?php echo "$std_fails"; ?>, label: "Candidate Failing Exams" }
 
 		]
 	}]

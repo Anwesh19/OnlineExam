@@ -158,7 +158,7 @@ include 'includes/check_reply.php';
             </div>
             <div class="page-inner">
                 <div class="page-title">
-                    <h3>Manage Notice</h3>
+                    <h3>Manage Bulletin Board</h3>
 
 
 
@@ -174,8 +174,8 @@ include 'includes/check_reply.php';
                                         <div role="tabpanel">
                                    
                                             <ul class="nav nav-tabs" role="tablist">
-                                                <li role="presentation" class="active"><a href="#tab5" role="tab" data-toggle="tab">Notice</a></li>
-                                                <li role="presentation"><a href="#tab6" role="tab" data-toggle="tab">Add Notice</a></li>
+                                                <li role="presentation" class="active"><a href="#tab5" role="tab" data-toggle="tab">Bulletin Board</a></li>
+                                                <li role="presentation"><a href="#tab6" role="tab" data-toggle="tab">Add Bulletin Board</a></li>
                                             </ul>
                                     
                                             <div class="tab-content">
@@ -222,8 +222,8 @@ include 'includes/check_reply.php';
                                                     <span class="caret"></span>
                                                 </button>
                                                 <ul class="dropdown-menu" role="menu">
-												    <li><a href="edit-notice.php?id='.$row['notice_id'].'">Edit Notice</a></li>
-                                                    <li><a'; ?> onclick = "return confirm('Drop <?php echo $row['title']; ?> ?')" <?php print ' href="pages/drop_not.php?id='.$row['notice_id'].'">Drop Notice</a></li>
+												    <li><a href="edit-notice.php?id='.$row['notice_id'].'">Edit Bulletin</a></li>
+                                                    <li><a'; ?> onclick = "return confirm('Drop <?php echo $row['title']; ?> ?')" <?php print ' href="pages/drop_not.php?id='.$row['notice_id'].'">Drop Bulletin</a></li>
                                                 </ul>
                                             </div></td>
           

@@ -36,7 +36,7 @@ $conn->close();
    
 <head>
         
-        <title>OES | Edit Exam</title>
+        <title>OES | Edit Assessment</title>
         
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta charset="UTF-8">
@@ -196,7 +196,7 @@ $conn->close();
             </div>
             <div class="page-inner">
                 <div class="page-title">
-                    <h3>Edit Exam - <?php echo "$exname"; ?></h3>
+                    <h3>Edit Assessment - <?php echo "$exname"; ?></h3>
 
 
 
@@ -211,12 +211,12 @@ $conn->close();
                                     <div class="panel-body">
                                          <form action="pages/update_exam.php" method="POST">
 										<div class="form-group">
-                                            <label for="exampleInputEmail1">Exam Name</label>
-                                            <input type="text" class="form-control" value="<?php echo"$exname"; ?>" placeholder="Enter exam name" name="exam" required autocomplete="off">
+                                            <label for="exampleInputEmail1">Assessment Name</label>
+                                            <input type="text" class="form-control" value="<?php echo"$exname"; ?>" placeholder="Enter assessment name" name="exam" required autocomplete="off">
                                         </div>
 										<div class="form-group">
-                                            <label for="exampleInputEmail1">Exam Duration (Minutes)</label>
-                                            <input type="number" class="form-control" value="<?php echo"$exduration"; ?>" placeholder="Enter exam duration" name="duration" required autocomplete="off">
+                                            <label for="exampleInputEmail1">Assessment Duration (Minutes)</label>
+                                            <input type="number" class="form-control" value="<?php echo"$exduration"; ?>" placeholder="Enter assessment duration" name="duration" required autocomplete="off">
                                         </div>
                                         <div class="form-group">
 											<label for="exampleInputEmail1">Total No: of questions</label>
