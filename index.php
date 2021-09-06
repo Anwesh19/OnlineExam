@@ -42,7 +42,7 @@
                         <div class="col-md-4 center">
                             <div class="login-box">
                                 <a href="./" class="logo-name text-lg text-center" style="color:#00C0FF;">Online Examination System</a>
-                                <p class="text-center m-t-md">Please login into your account.</p>
+                                <p class="text-center m-t-md"style="color:#FC7F01;">Please login into your account.</p>
                                 <form class="m-t-md" action="pages/authentication.php" method="POST">
                                     <div class="form-group">
                                         <input type="text" class="form-control" placeholder="Email or Registration No."  autocomplete="off" name="user" required>
@@ -53,9 +53,10 @@
                                     <button type="submit" class="btn btn-success btn-block">Login</button>
                                     <a href="forgot_pw.php" class="display-block text-center m-t-md text-sm">Forgot Password?</a>
                                 </form>
-                               
+                            
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>

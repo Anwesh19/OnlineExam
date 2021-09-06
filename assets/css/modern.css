@@ -6,8 +6,9 @@ body {
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
-    background: #ccc;
+    background: #00C0FF;
     color: #4E5E6A;
+    clip-path: ellipse(180% 100% at -80% 0%);
 }
 
 html {
@@ -3103,7 +3104,7 @@ tr.group:hover {
 .top-menu .navbar-nav > li > a {
     display: block;
     padding: 20px 18px;
-    color: #5f5f5f;
+    color: #FC7F01;
     border: none;
     position: relative;
     line-height: 20px;
@@ -3612,7 +3613,7 @@ tr.group:hover {
 }
 
 .sidebar-profile span small {
-    color: #90999c;
+    color: #FC7F01;
     padding: 5px 0;
 }
 
@@ -4324,7 +4325,7 @@ body:not(.page-horizontal-bar):not(.small-sidebar) .menu.accordion-menu a {
 .page-title h3 {
     font-size: 24px;
     font-weight: 300;
-    color: #74767d;
+    color: #FC7F01;
     padding: 0px;
     margin: 0 0 4px 0;
 }
@@ -4345,12 +4346,12 @@ body:not(.page-horizontal-bar):not(.small-sidebar) .menu.accordion-menu a {
 
 .page-breadcrumb ol.breadcrumb li a {
     font-size: 13px;
-    color: #90999c;
+    color: #00C0FF;
 }
 
 .page-breadcrumb ol.breadcrumb li.active {
     font-size: 13px;
-    color: #90999c;
+    color: #00C0FF;
 }
 
 .page-breadcrumb ul {
@@ -4633,7 +4634,7 @@ body:not(.page-horizontal-bar):not(.small-sidebar) .menu.accordion-menu a {
     display: block;
     font-size: 13px;
     margin-bottom: 10px;
-    color: #B0B0B0;
+    color: #FC7F01;
 }
 
 .info-box .info-box-progress {

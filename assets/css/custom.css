@@ -5,4 +5,17 @@
     border-radius: 10px;
     border: white;
     box-shadow: 0 8px 20px 0 rgba(7, 240, 248, 0.959);
+    
+}
+input {
+    border-color:#00C0FF;
+  }
+input:hover{
+    /* transform: scale(1.1); */
+    border-color: #00C0FF;
+    border-radius: 5px;
+}
+
+.display-block{
+    color: #FC7F01;
 }

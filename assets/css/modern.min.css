@@ -1567,7 +1567,7 @@ fieldset[disabled] .btn-danger:hover {
 }
 .nav-tabs > li > a {
     border-radius: 0 !important;
-    color: #777;
+    color: #00C0FF;
     border-bottom: 1px solid #ddd;
 }
 .nav-tabs > li > a:hover {
@@ -1576,7 +1576,7 @@ fieldset[disabled] .btn-danger:hover {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:focus,
 .nav-tabs > li.active > a:hover {
-    color: #555;
+    color: #FC7F01;
     cursor: default;
     background-color: #fff;
     border-bottom-color: #fff;
@@ -1945,9 +1945,9 @@ ol.linenums {
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button.current,
 .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
-    color: #5f5f5f !important;
+    color: #fff !important;
     border: 1px solid #ebebeb;
-    background: #f1f1f1 !important;
+    background: #FC7F01 !important;
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button:active,
 .dataTables_wrapper .dataTables_paginate .paginate_button:focus,
@@ -2302,7 +2302,7 @@ tr.group:hover {
 .top-menu .navbar-nav > li > a {
     display: block;
     padding: 20px 18px;
-    color: #5f5f5f;
+    color: #FC7F01;
     border: none;
     position: relative;
     line-height: 20px;
@@ -2469,7 +2469,7 @@ tr.group:hover {
 }
 .dropdown-menu li a {
     padding: 7px 10px;
-    color: #5f5f5f;
+    color: #00C0FF;
     font-size: 13px;
 }
 .dropdown-menu li a i {
@@ -3240,7 +3240,7 @@ body:not(.page-horizontal-bar):not(.small-sidebar) .menu.accordion-menu a {
 .page-title h3 {
     font-size: 24px;
     font-weight: 5px;
-    color: #00C0FF;
+    color: #FC7F01;
     padding: 0;
     margin: 0 0 4px;
 }
@@ -3248,7 +3248,7 @@ body:not(.page-horizontal-bar):not(.small-sidebar) .menu.accordion-menu a {
 .page-breadcrumb ol.breadcrumb li.active,
 .page-breadcrumb ul li a {
     font-size: 13px;
-    color: #90999c;
+    color: #00C0FF;
 }
 .page-breadcrumb .breadcrumb {
     float: left;
@@ -3451,7 +3451,7 @@ body:not(.page-horizontal-bar):not(.small-sidebar) .menu.accordion-menu a {
     display: block;
     font-size: 13px;
     margin-bottom: 10px;
-    color: #b0b0b0;
+    color: #FC7F01;
 }
 .info-box .info-box-progress {
     clear: both;

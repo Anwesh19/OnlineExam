@@ -19,7 +19,7 @@
 }
 
 .sidebar-profile span small {
-    color: #00C0FF;
+    color: #FC7F01;
 }
 
 .menu {
@@ -27,7 +27,7 @@
 }
 
 .menu.accordion-menu a {
-    color: #FC7F01;
+    color: #00C0FF;
 }
 
 .menu.accordion-menu > li > a:hover {
