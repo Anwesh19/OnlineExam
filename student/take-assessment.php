@@ -252,7 +252,7 @@ header("location:./");
                                 <div class="row">
                            <div class="panel panel-white">
                                 <div class="panel-heading">
-                                    <h4 class="panel-title">Examination Properties</h4>
+                                    <h4 class="panel-title">Assessment Properties</h4>
                                 </div>
                                 <div class="panel-body">
                                     <div class="table-responsive project-stats">  
@@ -261,12 +261,12 @@ header("location:./");
                                            <tbody>
                                                <tr>
                                                    <th scope="row">1</th>
-                                                   <td>Exam Name</td>
+                                                   <td>Assessment Name</td>
                                                    <td><?php echo "$exam_name"; ?></td>
                                                </tr>
 											     <tr>
                                                    <th scope="row">2</th>
-                                                   <td>Subject</td>
+                                                   <td>Skills</td>
                                                    <td><?php echo "$subject"; ?></td>
                                                </tr>
 											    <tr>

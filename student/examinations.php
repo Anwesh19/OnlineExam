@@ -7,7 +7,7 @@ include 'includes/check_reply.php';
    
 <head>
         
-        <title>OES | My Examinations</title>
+        <title>OES | My Assessments</title>
         
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta charset="UTF-8">
@@ -127,7 +127,7 @@ include 'includes/check_reply.php';
                        
                                 </div>
                                 <div class="sidebar-profile-details">
-                                    <span><?php echo "$myfname"; ?> <?php echo "$mylname"; ?><br><small>OES Student</small></span>
+                                    <span><?php echo "$myfname"; ?> <?php echo "$mylname"; ?><br><small>OES Candidate</small></span>
                                 </div>
                             </a>
                         </div>
@@ -144,7 +144,7 @@ include 'includes/check_reply.php';
             </div>
             <div class="page-inner">
                 <div class="page-title">
-                    <h3>My Examinations</h3>
+                    <h3>My Assessment</h3>
 
 
 
@@ -169,7 +169,7 @@ include 'includes/check_reply.php';
                                         <thead>
                                             <tr>
                                                 <th>Name</th>
-												<th>Subject</th>
+												<th>Skill</th>
 												<th>Deadline</th>
                                                 <th>Status</th>
                                                 <th>Action</th>
@@ -179,7 +179,7 @@ include 'includes/check_reply.php';
                                         <tfoot>
                                             <tr>
                                                 <th>Name</th>
-												<th>Subject</th>
+												<th>Skill</th>
 												<th>Deadline</th>
                                                 <th>Status</th>
                                                 <th>Action</th>

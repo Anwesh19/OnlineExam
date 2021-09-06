@@ -188,12 +188,12 @@ header("location:./");
                                            <tbody>
                                                <tr>
                                                    <th scope="row">1</th>
-                                                   <td>Exam Name</td>
+                                                   <td>Assessment Name</td>
                                                    <td><?php echo "$exam_name"; ?></td>
                                                </tr>
 											     <tr>
                                                    <th scope="row">2</th>
-                                                   <td>Student_name</td>
+                                                   <td>Candidate_name</td>
                                                    <td><?php echo "$myfname $mylname"; ?></td>
                                                </tr>
 											    <tr>

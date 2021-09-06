@@ -142,11 +142,11 @@ include 'includes/fetch_records.php';
             </div>
             <div class="page-inner">
                 <div class="page-title">
-                    <h3>Student Dashboard</h3>
+                    <h3>Candidate Dashboard</h3>
                     <div class="page-breadcrumb">
                         <ol class="breadcrumb">
                             <li><a href="./">Home</a></li>
-                            <li class="active">Student Dashboard</li>
+                            <li class="active">Candidate Dashboard</li>
                         </ol>
                     </div>
                 </div>
@@ -157,7 +157,7 @@ include 'includes/fetch_records.php';
                                 <div class="panel-body">
                                     <div class="info-box-stats">
                                         <p class="counter"><?php echo number_format($students_in_my_class); ?></p>
-                                        <span class="info-box-title">STUDENTS IN MY CLASS</span>
+                                        <span class="info-box-title">CANDIDATES WITH ME</span>
                                     </div>
                                     <div class="info-box-icon">
                                         <i class="icon-user"></i>
@@ -171,7 +171,7 @@ include 'includes/fetch_records.php';
                                 <div class="panel-body">
                                     <div class="info-box-stats">
                                         <p><span class="counter"><?php echo number_format($active_examinations); ?></span></p>
-                                        <span class="info-box-title">ACTIVE EXAMINATIONS</span>
+                                        <span class="info-box-title">ACTIVE ASSESSMENTS</span>
                                     </div>
                                     <div class="info-box-icon">
                                         <i class="icon-book-open"></i>
@@ -185,7 +185,7 @@ include 'includes/fetch_records.php';
                                 <div class="panel-body">
                                     <div class="info-box-stats">
                                         <p class="counter"><?php echo number_format($my_subjects); ?></p>
-                                        <span class="info-box-title">SUBJECTS</span>
+                                        <span class="info-box-title">SKILLS</span>
                                     </div>
                                     <div class="info-box-icon">
                                         <i class="icon-docs"></i>
@@ -199,7 +199,7 @@ include 'includes/fetch_records.php';
                                 <div class="panel-body">
                                     <div class="info-box-stats">
                                         <p class="counter"><?php echo number_format($passed_exam); ?></p>
-                                        <span class="info-box-title">PASSED EXAMS</span>
+                                        <span class="info-box-title">PASSED ASSESSMENTS</span>
                                     </div>
                                     <div class="info-box-icon">
                                         <i class="icon-like"></i>
@@ -212,7 +212,7 @@ include 'includes/fetch_records.php';
                                 <div class="panel-body">
                                     <div class="info-box-stats">
                                         <p class="counter"><?php echo number_format($notice); ?></p>
-                                        <span class="info-box-title">NOTICE</span>
+                                        <span class="info-box-title">BULLETIN BOARD</span>
                                     </div>
                                     <div class="info-box-icon">
                                         <i class="icon-list"></i>
@@ -226,7 +226,7 @@ include 'includes/fetch_records.php';
                                 <div class="panel-body">
                                     <div class="info-box-stats">
                                         <p><span class="counter"><?php echo number_format($failed_exam); ?></span></p>
-                                        <span class="info-box-title">FAILED EXAMS</span>
+                                        <span class="info-box-title">FAILED ASSESSMENTS</span>
                                     </div>
                                     <div class="info-box-icon">
                                         <i class="icon-dislike"></i>
@@ -240,7 +240,7 @@ include 'includes/fetch_records.php';
                                 <div class="panel-body">
                                     <div class="info-box-stats">
                                         <p class="counter"><?php echo number_format($locked_exams); ?></p>
-                                        <span class="info-box-title">LOCKED EXAMS</span>
+                                        <span class="info-box-title">LOCKED ASSESSMENTS</span>
                                     </div>
                                     <div class="info-box-icon">
                                         <i class="icon-lock"></i>
@@ -254,7 +254,7 @@ include 'includes/fetch_records.php';
                                 <div class="panel-body">
                                     <div class="info-box-stats">
                                         <p class="counter"><?php echo number_format($attended_exams); ?></p>
-                                        <span class="info-box-title">ATTENDED EXAMS</span>
+                                        <span class="info-box-title">ATTENDED ASSESSMENTS</span>
                                     </div>
                                     <div class="info-box-icon">
                                         <i class="icon-check"></i>
@@ -266,7 +266,7 @@ include 'includes/fetch_records.php';
 						                        <div class="col-lg-12 col-md-12">
                             <div class="panel panel-white">
                                 <div class="panel-heading">
-                                    <h4 class="panel-title">Notice</h4>
+                                    <h4 class="panel-title">Bulletin Board</h4>
                                 </div>
                                 <div class="panel-body">
                           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">

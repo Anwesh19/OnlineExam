@@ -9,7 +9,7 @@ $qrcodetxt = 'ID:'.$myid.', NAME: '.$myfname.' '.$mylname.', GENDER: '.$mygender
     
 <head>
         
-        <title>OES | Student Profile</title>
+        <title>OES | Candidate Profile</title>
         
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta charset="UTF-8">
@@ -143,11 +143,11 @@ $qrcodetxt = 'ID:'.$myid.', NAME: '.$myfname.' '.$mylname.', GENDER: '.$mygender
             </div>
             <div class="page-inner">
                 <div class="page-title">
-                    <h3>Student Profile</h3>
+                    <h3>Candidate Profile</h3>
                     <div class="page-breadcrumb">
                         <ol class="breadcrumb">
                             <li><a href="./">Home</a></li>
-                            <li class="active">Student Profile</li>
+                            <li class="active">Candidate Profile</li>
                         </ol>
                     </div>
                 </div>
@@ -225,13 +225,13 @@ $qrcodetxt = 'ID:'.$myid.', NAME: '.$myfname.' '.$mylname.', GENDER: '.$mygender
                                             </tr>
 											<tr>
                                                 <th scope="row">9</th>
-                                                <td>Department</td>
+                                                <td>Domain</td>
                                                 <td><b><?php echo "$mydepartment"; ?></b></td>
                                                
                                             </tr>
 											<tr>
                                                 <th scope="row">10</th>
-                                                <td>Category</td>
+                                                <td>Service</td>
                                                 <td><b><?php echo "$mycategory"; ?></b></td>
                                                
                                             </tr>

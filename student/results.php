@@ -169,9 +169,9 @@ include 'includes/check_reply.php';
 										<table id="example" class="display table" style="width: 100%; cellspacing: 0;">
                                         <thead>
                                             <tr>
-                                                <th>Exam</th>
-												<th>Student ID</th>
-												<th>Student Name</th>
+                                                <th>Assessment</th>
+												<th>Candidate ID</th>
+												<th>Candidate Name</th>
 												<th>Score</th>
 												<th>Date</th>
                                                 <th>Status</th>
@@ -182,13 +182,14 @@ include 'includes/check_reply.php';
                                         </thead>
                                         <tfoot>
                                             <tr>
-                                                <th>Exam</th>
-												<th>Student ID</th>
-												<th>Student Name</th>
-												<th>Score</th>
-												<th>Date</th>
-                                                <th>Status</th>
-												<th>Next Retake</th>
+                                            <th>Assessment</th>
+                                            <th>Candidate ID</th>
+                                            <th>Candidate Name</th>
+                                            <th>Score</th>
+                                            <th>Date</th>
+                                            <th>Status</th>
+                                            <th>Next Retake</th>
+                                            
                 
                                             </tr>
                                         </tfoot>

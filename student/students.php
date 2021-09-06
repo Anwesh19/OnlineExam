@@ -124,7 +124,7 @@ include 'includes/fetch_records.php';
                        
                                 </div>
                                 <div class="sidebar-profile-details">
-                                    <span><?php echo "$myfname"; ?> <?php echo "$mylname"; ?><br><small>OES Student</small></span>
+                                    <span><?php echo "$myfname"; ?> <?php echo "$mylname"; ?><br><small>OES CANDIDATE</small></span>
                                 </div>
                             </a>
                         </div>
@@ -141,11 +141,11 @@ include 'includes/fetch_records.php';
             </div>
             <div class="page-inner">
                 <div class="page-title">
-                    <h3>Students In My Class</h3>
+                    <h3>Candidates with me</h3>
                     <div class="page-breadcrumb">
                         <ol class="breadcrumb">
                             <li><a href="./">Home</a></li>
-                            <li class="active">Students In My Class</li>
+                            <li class="active">Candidates with me</li>
                         </ol>
                     </div>
                 </div>
